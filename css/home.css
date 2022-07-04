@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 80px;
 }
@@ -44,4 +44,36 @@ h1 {
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.topPadding {
+    padding-top: 20px;
+
+}
+
+.developer {
+    box-shadow: 10px 5px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.experienArea {
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#borderSalmon {
+    border-left: 7px solid salmon;
+}
+
+#borderBlue {
+    border-left: 7px solid blueviolet;
+}
+
+footer p {
+    text-align: center;
 }
